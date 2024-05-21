@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        background-color: aqua;
+        width: 173.1vh;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+      }
+
+      main {
+        background-color: rgb(246, 95, 95);
+        height: 60vh;
+        display: flex;
+      }
+
+      leftaside {
+        background-color: bisque;
+        width: 90vh;
+        height: 55vh;
+      }
+
+      rightaside {
+        background-color: pink;
+        width: 90vh;
+        height: 55vh;
+        margin-left: -40vh;
+      }
+      .left-up-div {
+        background: pink;
+        height: 30vh;
+        width: 100vh;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+      }
+      .left-down-div {
+        background-color: green;
+        height: 30vh;
+        width: 100vh;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+      }
+      .right-up-div {
+        background-color: yellow;
+        height: 40vh;
+        width: 125vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .right-down-div {
+        background-color: grey;
+        height: 20vh;
+        width: 125vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .bottom {
+        background-color: aqua;
+        display: flex;
+        height: 20vh;
+      }
+      .bottom-left {
+        background-color: greenyellow;
+        width: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .bottom-right {
+        background-color: pink;
+        width: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      footer {
+        background-color: orange;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <h1>I am a Navbar</h1>
+    </nav>
+    <main>
+      <leftaside>
+        <div class="left-up-div"><h1>I am up left side</h1></div>
+        <div class="left-down-div"><h1>I am down left side</h1></div>
+      </leftaside>
+      <rightaside>
+        <div class="right-up-div"><h1>I am up right side</h1></div>
+        <div class="right-down-div"><h1>I am down right side</h1></div>
+      </rightaside>
+    </main>
+    <div class="bottom">
+      <div class="bottom-left"><h1>left side</h1></div>
+      <div class="bottom-right"><h1>right side</h1></div>
+    </div>
+
+    <footer>
+      <h1>I am a Footer</h1>
+    </footer>
+  </body>
+</html>
